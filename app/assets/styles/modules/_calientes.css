@@ -1,0 +1,68 @@
+.calientes {
+  max-width: 62.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  p {
+    font-family: "Fira Code", monospace;
+    font-size: 1.3rem;
+  }
+  &__container {
+    display: flex;
+    margin-left: 3.75rem;
+    margin-right: 3.75rem;
+  }
+
+  &__column-one {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  &__column-two {
+    flex: 1;
+    padding-right: 2rem;
+  }
+
+  &__column-zero {
+    padding-right: 2rem;
+    img {
+      width: 70px;
+      height: auto;
+    }
+  }
+
+  &__item-container {
+    display: flex;
+    align-items: center;
+
+    span {
+    }
+
+    img {
+      max-width: 6.25rem;
+      margin-right: 3.75rem;
+    }
+  }
+
+  &__item-container-container {
+    display: flex;
+  }
+}
+
+.item-box-1 {
+  flex: 1;
+  text-align: left;
+
+  img {
+    max-width: 63px;
+    height: auto;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+}
+.item-box-2 {
+  flex: 3;
+  text-align: left;
+}
+.item-box-3 {
+  flex: 3;
+
+  text-align: right;
+}

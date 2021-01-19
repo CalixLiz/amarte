@@ -1,0 +1,11 @@
+.title {
+  &__favoritos {
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.1rem;
+
+  font-family: "Yusei Magic", sans-serif;
+}

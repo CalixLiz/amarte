@@ -1,0 +1,64 @@
+.large-hero {
+  margin-top: 2rem;
+  display: flex;
+
+  &__first {
+    flex: 1;
+  }
+
+  &__middle {
+    flex: 1;
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 500;
+
+    color: #0d755b;
+
+    display: flex;
+
+    @mixin atSmall {
+      font-size: 6.8rem;
+      font-weight: 700;
+      letter-spacing: 1.3rem;
+    }
+  }
+
+  &__last {
+    flex: 1;
+  }
+
+  img {
+    max-width: 5.25rem;
+    margin-top: 76px;
+    margin-left: -3px;
+
+    @mixin atSmall {
+      max-width: 12.75rem;
+      margin-top: 120px;
+      margin-left: -10px;
+    }
+  }
+
+  &__subtitle-y-mas {
+    float: left;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: absolute;
+    top: 280px;
+    left: 860px;
+  }
+}
+
+.border-bottom-line {
+  border-bottom: 3px solid #ffd471;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @mixin atSmall {
+    margin-bottom: 9rem;
+    max-width: 1280px;
+    border-bottom: 5px solid #ffd471;
+  }
+}

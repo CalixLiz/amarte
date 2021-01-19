@@ -1,0 +1,14 @@
+.section {
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+
+  &__narrow {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  &__large {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+}

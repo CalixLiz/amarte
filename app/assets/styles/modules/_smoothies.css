@@ -1,0 +1,27 @@
+.smoothies {
+  &__container {
+    display: flex;
+    margin-top: 4rem;
+    max-width: 62.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__item-box {
+    flex: 2;
+    text-align: left;
+    background-color: #dfe6e5;
+  }
+
+  &__item-box_center-content {
+    padding-top: 4rem;
+  }
+
+  &__item-price {
+    flex: 2;
+    padding: 1rem;
+    text-align: right;
+    background-color: #dfe6e5;
+    color: #4c4c4a;
+  }
+}

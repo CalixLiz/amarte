@@ -1,0 +1,41 @@
+.jugos {
+  &__columns {
+    display: flex;
+
+    @mixin atSmall {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+.column-1 {
+  flex: 1;
+  max-width: 32.1875rem;
+}
+
+.column-2 {
+  flex: 1;
+  max-width: 32.1875rem;
+}
+
+.jugo {
+  margin: 0;
+
+  @mixin atSmall {
+    margin: 0.9rem 0.2rem 0.1rem 0.1rem;
+  }
+}
+
+.jugo h3 {
+  @mixin atSmall {
+    margin-bottom: -0.8em;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
+
+.jugo p {
+  @mixin atSmall {
+    font-size: 1.1rem;
+  }
+}
