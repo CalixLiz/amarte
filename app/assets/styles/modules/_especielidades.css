@@ -1,8 +1,14 @@
 .especialidades {
   &__container {
-    border: 2px solid #333333;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    border: 0.1875rem solid #f5c4d0;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    @mixin atSmall {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+    }
   }
 
   &__column-one {
@@ -12,13 +18,34 @@
     background-size: contain;
     background-repeat: no-repeat;
     text-align: justify;
+    background-position: center;
+    color: #668c85;
 
-    border: 1px solid #333333;
+    border: 0.1873rem solid #f5c4d0;
     margin: 1rem;
 
+    @mixin atMedium {
+      background-position: left;
+    }
+
     p {
-      padding: 0.2rem 0 0.2rem;
-      margin-left: 26rem;
+      padding: 0;
+      margin-left: 1rem;
+
+      @mixin atSmall {
+        padding: 0.2rem 0 0.2rem;
+        margin-left: 0;
+      }
+
+      @mixin atMedium {
+        padding: 0.2rem 0 0.2rem;
+        margin-left: 26rem;
+      }
+    }
+
+    h2 {
+      color: #003f33;
+      letter-spacing: 1px;
     }
   }
 }
