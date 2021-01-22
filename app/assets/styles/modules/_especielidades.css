@@ -14,7 +14,7 @@
   &__column-one {
     font-family: "Fira Code", monospace;
     font-size: 1.3rem;
-    background-image: url("./assets/images/cacao-hd-1.jpg");
+    background-image: url("./assets/images/cacao-hd-2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     text-align: justify;
@@ -23,6 +23,10 @@
 
     border: 0.1873rem solid #f5c4d0;
     margin: 1rem;
+
+    @mixin atSmall {
+      background-image: url("./assets/images/cacao-hd-1.jpg");
+    }
 
     @mixin atMedium {
       background-position: left;
