@@ -1,25 +1,11 @@
 .jugos {
   &__columns {
-    display: flex;
-
     font-family: "Fira Code", monospace;
 
-    @mixin atSmall {
+    @mixin atMedium {
+      display: flex;
     }
   }
-}
-
-.column-1 {
-  flex: 1;
-  padding-left: 0.1rem;
-
-  @mixin atMedium {
-    padding-left: 2.9rem;
-  }
-}
-
-.column-2 {
-  flex: 1;
 }
 
 .jugo {
