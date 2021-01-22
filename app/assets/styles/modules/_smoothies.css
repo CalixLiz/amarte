@@ -23,9 +23,11 @@
 
   &__item-box_center-content {
     padding-top: 4rem;
+    padding-bottom: 3.3rem;
   }
 
   &__item-price {
+    padding: 2rem;
     @mixin atSmall {
       flex: 2;
       padding: 1rem;

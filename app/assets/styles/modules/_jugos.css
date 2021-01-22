@@ -2,40 +2,50 @@
   &__columns {
     display: flex;
 
+    font-family: "Fira Code", monospace;
+
     @mixin atSmall {
-      justify-content: space-evenly;
     }
   }
 }
 
 .column-1 {
   flex: 1;
-  max-width: 32.1875rem;
+  padding-left: 0.1rem;
+
+  @mixin atMedium {
+    padding-left: 2.9rem;
+  }
 }
 
 .column-2 {
   flex: 1;
-  max-width: 32.1875rem;
 }
 
 .jugo {
   margin: 0;
 
   @mixin atSmall {
-    margin: 0.9rem 0.2rem 0.1rem 0.1rem;
+    margin: 1rem;
+    padding: 1.3rem 0 0 0.3rem;
   }
 }
 
 .jugo h3 {
+  margin-top: 40px;
+  margin-bottom: -10px;
   @mixin atSmall {
-    margin-bottom: -0.8em;
-    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 1.6rem;
     font-weight: 400;
   }
 }
 
 .jugo p {
+  color: #606a69;
   @mixin atSmall {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 }
