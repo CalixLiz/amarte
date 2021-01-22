@@ -24,12 +24,9 @@
     border: 0.1873rem solid #f5c4d0;
     margin: 1rem;
 
-    @mixin atSmall {
-      background-image: url("./assets/images/cacao-hd-1.jpg");
-    }
-
     @mixin atMedium {
       background-position: left;
+      background-image: url("./assets/images/cacao-hd-1.jpg");
     }
 
     p {
