@@ -1,9 +1,11 @@
 .calientes {
   width: 100%;
   background-color: wheat;
+  margin-bottom: -20px;
 
   @mixin atMedium {
     width: 50%;
+    margin-bottom: 0;
   }
 
   &__container {

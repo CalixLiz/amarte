@@ -7,4 +7,10 @@
     font-size: 3rem;
     letter-spacing: 3px;
   }
+
+  &__m-b {
+    @mixin atMedium {
+      margin-bottom: 6rem;
+    }
+  }
 }

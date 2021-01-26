@@ -3,7 +3,7 @@
   margin-bottom: 3rem;
   @mixin atMedium {
     margin-top: 6rem;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
   }
 }
 
