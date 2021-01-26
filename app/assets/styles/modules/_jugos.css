@@ -1,37 +1,46 @@
 .jugos {
-  &__columns {
-    font-family: "Fira Code", monospace;
-
+  h3 {
+    position: relative;
     @mixin atMedium {
-      display: flex;
+      font-size: 1.3rem;
+      letter-spacing: 1px;
     }
+  }
+
+  p {
+    @mixin atMedium {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  &__column-1 {
+    background-color: rosybrown;
+    width: 100%;
+  }
+
+  &__column-2 {
+    background-color: sandybrown;
+    width: 100%;
+  }
+
+  &__column-3 {
+    background-color: khaki;
+    width: 100%;
   }
 }
 
 .jugo {
-  margin: 0;
+  padding: 1rem;
+  height: 5.625rem;
 
-  @mixin atSmall {
-    margin: 1rem;
-    padding: 1.3rem 0 0 0.3rem;
+  @mixin atMedium {
+    padding: 2rem;
   }
 }
 
-.jugo h3 {
-  margin-top: 40px;
-  margin-bottom: -10px;
-  @mixin atSmall {
-    margin-top: 0;
-    margin-bottom: 0;
-
-    font-size: 1.6rem;
-    font-weight: 400;
-  }
-}
-
-.jugo p {
-  color: #606a69;
-  @mixin atSmall {
-    font-size: 1.4rem;
-  }
+.price {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

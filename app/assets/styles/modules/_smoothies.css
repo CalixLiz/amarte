@@ -1,38 +1,19 @@
 .smoothies {
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+
+  @mixin atMedium {
+    width: 50%;
+  }
+
   &__container {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: center;
-
-    background-color: #dfe6e5;
-    @mixin atSmall {
-      display: flex;
-      margin-top: 4rem;
-      max-width: 62.5rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  &__item-box {
-    @mixin atSmall {
-      flex: 2;
-      text-align: left;
-    }
-  }
-
-  &__item-box_center-content {
-    padding-top: 4rem;
-    padding-bottom: 3.3rem;
-  }
-
-  &__item-price {
+    display: flex;
     padding: 2rem;
-    @mixin atSmall {
-      flex: 2;
-      padding: 1rem;
-      text-align: right;
-      color: #4c4c4a;
+    justify-content: space-between;
+
+    @mixin atMedium {
+      padding: 3rem 9rem;
+      font-size: 1.1rem;
     }
   }
 }

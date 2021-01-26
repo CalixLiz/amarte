@@ -1,79 +1,19 @@
 .calientes {
-  max-width: 62.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  p {
-    font-family: "Fira Code", monospace;
-    font-size: 1.3rem;
+  width: 100%;
+  background-color: wheat;
+
+  @mixin atMedium {
+    width: 50%;
   }
+
   &__container {
-    @mixin atMedium {
-      display: flex;
-      margin-left: 3.75rem;
-      margin-right: 3.75rem;
-    }
-  }
-
-  &__column-one {
-    @mixin atMedium {
-      flex: 1;
-      padding-right: 2rem;
-    }
-  }
-  &__column-two {
-    @mixin atMedium {
-      flex: 1;
-      padding-right: 2rem;
-    }
-  }
-
-  &__column-zero {
-    display: none;
-    @mixin atMedium {
-      display: block;
-      padding-right: 2rem;
-      img {
-        width: 70px;
-        height: auto;
-        padding: 0.9rem;
-      }
-    }
-  }
-
-  &__item-container {
     display: flex;
-    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
 
-    span {
-    }
-
-    img {
-      max-width: 6.25rem;
-      margin-right: 3.75rem;
+    @mixin atMedium {
+      padding: 3rem 9rem;
+      font-size: 1.1rem;
     }
   }
-
-  &__item-container-container {
-    display: flex;
-  }
-}
-
-.item-box-1 {
-  flex: 1;
-  text-align: left;
-
-  img {
-    max-width: 63px;
-    height: auto;
-    padding: 1rem 1rem 1rem 2rem;
-  }
-}
-.item-box-2 {
-  flex: 3;
-  text-align: left;
-}
-.item-box-3 {
-  flex: 3;
-
-  text-align: right;
 }

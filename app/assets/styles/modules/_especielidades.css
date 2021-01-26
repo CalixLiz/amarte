@@ -1,54 +1,32 @@
 .especialidades {
-  &__container {
-    border: 0.1875rem solid #f5c4d0;
+  width: 100%;
+  background-color: cadetblue;
 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
-    @mixin atSmall {
-      margin-top: 6rem;
-      margin-bottom: 6rem;
-    }
+  @mixin atMedium {
+    font-size: 1.2rem;
+    padding: 3rem;
   }
-
-  &__column-one {
-    font-family: "Fira Code", monospace;
-    font-size: 1.3rem;
-    background-image: url("./assets/images/cacao-hd-2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: justify;
-    background-position: center;
-    color: #668c85;
-
-    border: 0.1873rem solid #f5c4d0;
-    margin: 1rem;
-
-    @mixin atMedium {
-      background-position: left;
-      background-image: url("./assets/images/cacao-hd-1.jpg");
-    }
+  &__item {
+    padding: 2rem;
 
     p {
       position: relative;
-      padding: 0;
-      text-align: left;
-
-      @mixin atSmall {
-        padding: 0.2rem 0 0 0;
-        width: 60%;
-      }
-
-      @mixin atMedium {
-        padding: 0.2rem 0 0.2rem;
-        margin-left: 26rem;
-        width: 40%;
-      }
     }
-
-    h2 {
-      color: #003f33;
-      letter-spacing: 1px;
+    @mixin atMedium {
+      background-color: palegreen;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
+}
+
+.fav-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.smaller {
+  font-size: smaller;
 }
