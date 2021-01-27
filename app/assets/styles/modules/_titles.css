@@ -13,4 +13,10 @@
       margin-bottom: 6rem;
     }
   }
+
+  &__smaller {
+    @mixin atMedium {
+      font-size: 2.6rem;
+    }
+  }
 }

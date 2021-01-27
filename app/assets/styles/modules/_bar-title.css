@@ -1,0 +1,14 @@
+.bar-title {
+  font-family: "Yusei Magic", sans-serif;
+  border-bottom: 1px solid #333;
+  text-align: center;
+
+  p {
+    border-bottom: 1px solid #333;
+    margin-bottom: 6px;
+  }
+
+  @mixin atMedium {
+    font-size: 3.3rem;
+  }
+}
