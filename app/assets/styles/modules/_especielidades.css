@@ -1,6 +1,5 @@
 .especialidades {
   width: 100%;
-  color: #152638;
 
   @mixin atMedium {
     font-size: 1.2rem;
@@ -20,12 +19,13 @@
 
   &__outside-border {
     margin: 1rem;
-    border: 3px solid #eab798;
+    border: 3px solid #fbf6f6;
+    background-color: #eab798;
   }
 
   &__inner-border {
     margin: 1rem;
-    border: 3px solid #eab798;
+    border: 3px solid #fbf6f6;
 
     @mixin atMedium {
       padding: 0.3rem;
@@ -41,7 +41,6 @@
 
 .smaller {
   font-size: smaller;
-  color: #1f3a54;
 
   &__no-m-b {
     margin-top: -1rem;

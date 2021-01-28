@@ -1,22 +1,12 @@
 .about-us {
-  background-color: lightgray;
+  background-color: #748a7e;
   font-family: "Fira Code", monospace;
+  padding: 2rem;
+  color: #cad3d9;
 
   @mixin atMedium {
     font-size: 1.6rem;
     font-weight: 100;
-  }
-
-  &__text {
-    background-color: #ffffff;
     padding: 9rem;
-    width: 50%;
-  }
-
-  &__image {
-    img {
-      width: 600px;
-      height: auto;
-    }
   }
 }
