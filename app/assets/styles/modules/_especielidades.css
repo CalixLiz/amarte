@@ -17,6 +17,14 @@
     }
   }
 
+  &__item-p-b {
+    padding-bottom: 0.6rem;
+  }
+
+  &__item-p-t {
+    padding-top: 0.6rem;
+  }
+
   &__outside-border {
     margin: 1rem;
     border: 3px solid #fbf6f6;

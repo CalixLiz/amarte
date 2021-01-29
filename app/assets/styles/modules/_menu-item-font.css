@@ -1,3 +1,8 @@
 .menu-item-font {
   font-family: "Fira Code", monospace;
+
+  @mixin atMedium {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
 }

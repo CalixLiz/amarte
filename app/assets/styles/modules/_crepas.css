@@ -1,6 +1,20 @@
 .crepas {
 }
 
+.crepa {
+  &__dulce {
+    @mixin atMedium {
+      padding: 0.03rem;
+    }
+  }
+
+  &__salada {
+    @mixin atMedium {
+      padding: 0.6rem;
+    }
+  }
+}
+
 .dulces {
   width: 100%;
   background-color: #cfd7d2;
