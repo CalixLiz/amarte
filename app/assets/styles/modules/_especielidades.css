@@ -1,56 +1,42 @@
 .especialidades {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 
   @mixin atMedium {
-    font-size: 1.2rem;
+    width: 66%;
   }
+
   &__item {
-    padding: 0.3rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+    @mixin atMedium {
+      width: 73%;
+    }
 
     p {
       position: relative;
     }
-    @mixin atMedium {
-      width: 46%;
-      margin-left: auto;
-      margin-right: auto;
-    }
   }
 
-  &__item-p-b {
-    padding-bottom: 0.6rem;
-  }
-
-  &__item-p-t {
-    padding-top: 0.6rem;
+  &__item-small {
+    font-size: smaller;
+    margin-top: -10px;
   }
 
   &__outside-border {
-    margin: 1rem;
-    border: 3px solid #fbf6f6;
-    background-color: #eab798;
+    border: 3px solid #333333;
   }
 
   &__inner-border {
     margin: 1rem;
-    border: 3px solid #fbf6f6;
+    border: 3px solid #333333;
 
     @mixin atMedium {
       padding: 0.3rem;
     }
-  }
-}
-
-.fav-price {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.smaller {
-  font-size: smaller;
-
-  &__no-m-b {
-    margin-top: -1rem;
   }
 }

@@ -1,21 +1,2 @@
 .calientes {
-  width: 100%;
-  background-color: wheat;
-  margin-bottom: -20px;
-
-  @mixin atMedium {
-    width: 50%;
-    margin-bottom: 0;
-  }
-
-  &__container {
-    display: flex;
-    padding: 2rem;
-    justify-content: space-between;
-
-    @mixin atMedium {
-      padding: 3rem 9rem;
-      font-size: 1.1rem;
-    }
-  }
 }

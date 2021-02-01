@@ -1,21 +1,2 @@
 .smoothies {
-  width: 100%;
-  background-color: lightgoldenrodyellow;
-
-  @mixin atMedium {
-    width: 50%;
-  }
-
-  &__container {
-    padding: 2rem;
-
-    @mixin atMedium {
-      padding: 3rem 9rem;
-      font-size: 1.1rem;
-    }
-  }
-
-  &__container-to-price {
-    position: relative;
-  }
 }
