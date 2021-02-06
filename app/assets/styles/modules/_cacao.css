@@ -29,6 +29,9 @@
       width: 160px;
       height: 130px;
       @mixin atMedium {
+        position: absolute;
+        bottom: 0;
+        left: 0;
         width: 530px;
         height: 410px;
       }
