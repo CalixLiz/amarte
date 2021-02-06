@@ -23,8 +23,13 @@
   }
 
   &__column-3 {
-    background-color: khaki;
     width: 100%;
+  }
+
+  &__extra-padding {
+    @mixin atMedium {
+      padding: 2rem 6rem;
+    }
   }
 }
 
@@ -34,6 +39,14 @@
 
   @mixin atMedium {
     padding: 2rem;
+  }
+
+  &__smaller {
+    height: 3.225rem;
+  }
+
+  &__smallest {
+    height: 1.225rem;
   }
 }
 

@@ -1,2 +1,22 @@
 .calientes {
+  position: relative;
+  width: 100%;
+  height: 130px;
+
+  @mixin atMedium {
+    height: 300px;
+  }
+
+  img {
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+    max-width: 60%;
+
+    @mixin atMedium {
+      bottom: 30%;
+      left: 10%;
+      max-width: 20%;
+    }
+  }
 }

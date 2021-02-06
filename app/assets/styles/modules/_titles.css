@@ -10,7 +10,7 @@
 
   &__m-b {
     @mixin atMedium {
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
     }
   }
 
