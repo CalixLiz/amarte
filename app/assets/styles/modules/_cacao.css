@@ -9,21 +9,21 @@
   }
 
   &__img {
+    background-color: #ffffff;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 130px;
-    height: 130px;
+    width: 8.125rem;
+    height: 8.125rem;
 
-    background-color: #ffffff;
     border-radius: 0 80% 0 0;
 
     @mixin atMedium {
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 400px;
-      height: 390px;
+      width: 25rem;
+      height: 24.375rem;
       border-radius: 0 80% 0 0;
     }
   }
@@ -32,14 +32,14 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 160px;
-    height: 130px;
+    width: 10rem;
+    height: 8.125rem;
     @mixin atMedium {
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 530px;
-      height: 410px;
+      width: 33.125rem;
+      height: 25.625rem;
     }
   }
 }
