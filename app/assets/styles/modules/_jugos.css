@@ -42,7 +42,11 @@
   }
 
   &__smaller {
-    height: 3.225rem;
+    height: 3.725rem;
+
+    @mixin atMedium {
+      height: 3.975rem;
+    }
   }
 
   &__smallest {
