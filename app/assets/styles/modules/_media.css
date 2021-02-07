@@ -1,0 +1,10 @@
+.media {
+  background-color: khaki;
+
+  &__bottom-border {
+    border-bottom: 3px solid gray;
+    @mixin atSmall {
+      border-bottom: none;
+    }
+  }
+}

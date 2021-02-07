@@ -1,2 +1,9 @@
 .wrapper {
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  @mixin atMedium {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
