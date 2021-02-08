@@ -1,0 +1,11 @@
+.equipo {
+  background-color: #fbf6f6;
+
+  &__b-g {
+    background-color: #d4e9e1;
+  }
+
+  &__b-g-t {
+    background-color: #eaf4f0;
+  }
+}

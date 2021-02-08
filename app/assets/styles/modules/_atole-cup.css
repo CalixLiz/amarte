@@ -1,0 +1,41 @@
+.atole-cup {
+  background-color: #d4e9e1;
+  margin-top: 3rem;
+
+  &__container {
+    @mixin atMedium {
+      display: flex;
+    }
+  }
+}
+
+.atole-desc {
+  font-size: 0.8rem;
+  width: 80%;
+  text-align: center;
+  padding: 1rem;
+
+  @mixin atMedium {
+    text-align: center;
+    padding: 9rem;
+    font-size: 1rem;
+  }
+}
+
+.atole-pic {
+  width: 100%;
+}
+
+.pic-atole {
+  width: 260px;
+  height: 240px;
+  margin-left: 2rem;
+  padding-bottom: 1.3rem;
+  @mixin atMedium {
+    margin-top: 2rem;
+    margin-left: 0;
+    padding-bottom: 0;
+    width: 360px;
+    height: 340px;
+  }
+}
