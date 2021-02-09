@@ -9,33 +9,50 @@
   }
 }
 
+.atole-desc__container {
+  @mixin atMedium {
+    flex: 1;
+  }
+}
+
 .atole-desc {
   font-size: 0.8rem;
-  width: 80%;
-  text-align: center;
   padding: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 
   @mixin atMedium {
-    text-align: center;
-    padding: 9rem;
-    font-size: 1rem;
+    margin-top: 3rem;
+    transform: translateX(90px);
+
+    font-size: 1.2rem;
+    letter-spacing: 2;
+    line-height: 33px;
   }
 }
 
 .atole-pic {
   width: 100%;
+  @mixin atMedium {
+    flex: 1;
+  }
+}
+
+.pic-atole__container {
+  text-align: center;
 }
 
 .pic-atole {
-  width: 260px;
-  height: 240px;
-  margin-left: 2rem;
-  padding-bottom: 1.3rem;
+  width: 16.2375rem;
+  height: 18.3475rem;
+  margin-bottom: 2rem;
+
   @mixin atMedium {
     margin-top: 2rem;
-    margin-left: 0;
-    padding-bottom: 0;
-    width: 360px;
-    height: 340px;
+
+    width: 19.3695rem;
+    height: 21.1875rem;
   }
 }
