@@ -9,6 +9,10 @@
   }
 }
 
+.atole-cup-margin-top {
+  margin-top: 300px;
+}
+
 .atole-desc__container {
   @mixin atMedium {
     flex: 1;
