@@ -2,10 +2,27 @@
   background-color: #f5efe0;
   margin-top: 100px;
   margin-bottom: 100px;
-  height: 300px;
+  height: 360px;
+
+  &__right {
+    padding-top: 3rem;
+    padding-right: 0;
+    text-align: center;
+
+    @mixin atMedium {
+      padding-top: 3rem;
+      padding-right: 3rem;
+      text-align: right;
+    }
+  }
 }
 
 .color-img {
   max-width: 300px;
   height: auto;
+}
+
+.color-img__smoothie {
+  max-height: 300px;
+  width: auto;
 }

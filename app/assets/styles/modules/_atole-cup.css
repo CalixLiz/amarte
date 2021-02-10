@@ -7,6 +7,18 @@
       display: flex;
     }
   }
+
+  &__brown {
+    background-color: #f5efe0;
+  }
+
+  &__no-margin-top {
+    margin-top: 0;
+  }
+
+  &__depper-green {
+    background-color: #09755a;
+  }
 }
 
 .atole-cup-margin-top {
