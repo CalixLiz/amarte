@@ -3,7 +3,7 @@
   width: 100%;
   height: 300px;
 
-  background-color: #09755a;
+  background-color: #d4e9e1;
 
   @mixin atMedium {
     height: 800px;
@@ -43,4 +43,38 @@
     width: 33.125rem;
     height: 25.625rem;
   }
+}
+
+.contact {
+  @mixin atMedium {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    width: 888px;
+    height: 306px;
+
+    display: flex;
+  }
+}
+
+.icons {
+  flex: 1;
+}
+
+.address {
+  flex: 1;
+}
+
+.insta-img {
+  width: 40px;
+  height: 40px;
+  padding: 1rem;
+}
+
+.fb-img {
+  padding: 1rem;
+}
+
+.encuentra {
+  border-bottom: 1px solid #333333;
 }
