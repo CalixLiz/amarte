@@ -32,27 +32,26 @@
 }
 
 .atole-desc {
-  font-size: 0.8rem;
-  padding: 1rem;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 3rem;
   text-align: center;
 
   @mixin atMedium {
     margin-top: 3rem;
-    transform: translateX(90px);
-
-    font-size: 1.2rem;
-    letter-spacing: 2;
-    line-height: 33px;
   }
 }
 
 .atole-pic {
   width: 100%;
+
   @mixin atMedium {
     flex: 1;
+  }
+
+  &__bg-color-modifier {
+    background-color: #ffffff;
+    @mixin atMedium {
+      background-color: #d4e9e1;
+    }
   }
 }
 

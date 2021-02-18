@@ -5,4 +5,11 @@
 
   margin-top: 9rem;
   margin-bottom: 3rem;
+
+  &__large-m-t {
+    margin-top: 14rem;
+    @mixin atSmall {
+      margin-top: 9rem;
+    }
+  }
 }

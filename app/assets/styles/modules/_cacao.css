@@ -46,33 +46,47 @@
 }
 
 .contact {
+  text-align: center;
+  padding-top: 2rem;
   @mixin atMedium {
     position: absolute;
     bottom: 30%;
     right: 10%;
     width: 888px;
     height: 306px;
-
-    display: flex;
   }
 }
 
-.icons {
-  flex: 1;
-}
-
 .address {
-  flex: 1;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+
+  @mixin atMedium {
+    margin-top: 0;
+  }
 }
 
 .insta-img {
-  width: 40px;
-  height: 40px;
-  padding: 1rem;
+  width: 20px;
+  height: 20px;
+  padding: 0.6rem;
+  @mixin atMedium {
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+  }
 }
 
 .fb-img {
-  padding: 1rem;
+  width: 20px;
+  height: 20px;
+  padding: 0.6rem;
+  @mixin atMedium {
+    width: 40px;
+    height: 40px;
+    padding: 1rem;
+  }
 }
 
 .encuentra {
