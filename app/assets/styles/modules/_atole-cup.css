@@ -71,3 +71,10 @@
     height: 21.1875rem;
   }
 }
+
+.cup-of-coffee {
+  max-width: 260px;
+  @mixin atMedium {
+    max-width: 300px;
+  }
+}
