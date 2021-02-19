@@ -1,5 +1,6 @@
 .jugos {
   h3 {
+    font-family: "Fira Code", monospace;
     position: relative;
     @mixin atMedium {
       font-size: 1.3rem;
@@ -8,6 +9,7 @@
   }
 
   p {
+    font-family: "Fira Code", monospace;
     @mixin atMedium {
       font-size: 1.2rem;
       letter-spacing: 1px;

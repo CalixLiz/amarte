@@ -4,7 +4,7 @@
   padding-top: 2rem;
 
   @mixin atMedium {
-    font-size: 2.6rem;
+    font-size: 1.6rem;
     letter-spacing: 3px;
   }
 
