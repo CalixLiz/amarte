@@ -3,7 +3,7 @@
   width: 100%;
   height: 300px;
 
-  background-color: #d4e9e1;
+  background-color: $mintyGreen;
 
   @mixin atMedium {
     height: 800px;

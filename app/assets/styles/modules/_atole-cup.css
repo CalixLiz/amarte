@@ -1,5 +1,5 @@
 .atole-cup {
-  background-color: #d4e9e1;
+  background-color: $mintyGreen;
   margin-top: 3rem;
 
   &__container {

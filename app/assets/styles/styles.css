@@ -1,6 +1,7 @@
 @import "normalize.css";
-@import "base/_global";
+@import "base/_variables";
 @import "base/_mixins";
+@import "base/_global";
 @import "modules/_calientes";
 @import "modules/_titles";
 @import "modules/_wrapper";
@@ -14,3 +15,5 @@
 @import "modules/_equipo";
 @import "modules/_color-section";
 @import "modules/_main-hero";
+@import "modules/_site-header";
+@import "modules/_primary-nav";
